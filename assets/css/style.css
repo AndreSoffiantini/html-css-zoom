@@ -1,18 +1,9 @@
-/* #region Debug */
-
-footer {
-    height: 8vh;
-}
-
-
-/* endregion Debug */
-
-
 /* #region Common */
 
 :root {
     --deep-dark: #000000;
     --primary: #8F9797;
+    --primary-dark: #202020;
     --primary-trsp: #66707B80;
     --light: #EDF8F7;
     --confirm: #4BC800;
@@ -100,3 +91,37 @@ footer {
 
 
 /* #endregion site_main */
+
+
+/* region site_footer */
+
+#site_footer {
+    height: 8vh;
+    background-color: var(--primary-dark);
+    justify-content: space-between;
+}
+
+#site_footer>div {
+    height: 100%;
+    background-color: aquamarine;
+}
+
+#site_footer>.left-icons {
+    width: 10%;
+}
+
+#site_footer>.center-icons {
+    width: 35%;
+}
+
+#site_footer>.end-meeting {
+    width: 5%;
+    background-color: var(--primary);
+    color: var(--refuse);
+    font-size: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* endregion site_footer */
