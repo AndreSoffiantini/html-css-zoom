@@ -1,6 +1,4 @@
-header {
-    height: 5vh;
-}
+/* #region Debug */
 
 main {
     height: 85vh;
@@ -9,3 +7,61 @@ main {
 footer {
     height: 10vh;
 }
+
+
+/* endregion Debug */
+
+
+/* #region Common */
+
+:root {
+    --deep-dark: #000000;
+    --primary: #8F9797;
+    --light: #EDF8F7;
+    --confirm: #4BC800;
+    --refuse: #FF0000;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* #endregion Common */
+
+
+/* #region Utility */
+
+.primary-btn {
+    background-color: var(--primary);
+    color: var(--light);
+    text-align: center;
+    border-radius: 10%;
+    font-size: 55%;
+    padding: 3% 4%;
+}
+
+
+/* #endregion Utility */
+
+
+/* #region site_header */
+
+#site_header {
+    height: 4vh;
+    background-color: var(--deep-dark);
+    justify-content: flex-end;
+}
+
+#site_header>.container {
+    height: 100%;
+    width: 7.7%;
+    justify-content: space-around;
+}
+
+#site_header .primary-btn {
+    margin: 4%;
+}
+
+
+/* #endregion site_header */
