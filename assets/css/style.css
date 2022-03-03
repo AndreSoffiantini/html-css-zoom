@@ -2,11 +2,11 @@
 
 :root {
     --deep-dark: #000000;
-    --primary: #8F9797;
+    --primary: #636868;
     --primary-dark: #202020;
-    --primary-trsp: #66707B80;
+    --primary-trsp: #53585e94;
     --light: #EDF8F7;
-    --confirm: #4BC800;
+    --active: #4BC800;
     --end: #FF0000;
 }
 
@@ -43,6 +43,10 @@
 
 .icon>span {
     font-size: 75%;
+}
+
+.active>i {
+    color: var(--active);
 }
 
 
@@ -95,14 +99,16 @@
 }
 
 #site_main .text-img {
-    width: 33%;
+    width: 37%;
     background-color: var(--primary-trsp);
     color: var(--light);
     height: 20%;
     font-size: 55%;
     align-self: flex-end;
-    text-align: center;
-    padding-top: 1.5%;
+    padding: 1.5% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -119,7 +125,6 @@
 
 #site_footer>div {
     height: 100%;
-    /* background-color: aquamarine; */
 }
 
 #site_footer>.left-icons {
@@ -128,7 +133,8 @@
 }
 
 #site_footer>.center-icons {
-    width: 35%;
+    width: 42%;
+    justify-content: space-between;
 }
 
 #site_footer>.end-meeting {
