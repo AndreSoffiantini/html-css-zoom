@@ -1,11 +1,7 @@
 /* #region Debug */
 
-main {
-    height: 85vh;
-}
-
 footer {
-    height: 10vh;
+    height: 8vh;
 }
 
 
@@ -17,6 +13,7 @@ footer {
 :root {
     --deep-dark: #000000;
     --primary: #8F9797;
+    --primary-trsp: #66707B80;
     --light: #EDF8F7;
     --confirm: #4BC800;
     --refuse: #FF0000;
@@ -65,3 +62,41 @@ footer {
 
 
 /* #endregion site_header */
+
+
+/* #region site_main */
+
+#site_main {
+    background-color: var(--deep-dark);
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#site_main>.container {
+    width: 92%;
+    height: 90%;
+    justify-content: space-between;
+}
+
+#site_main .image {
+    width: 14%;
+    height: 19%;
+    background-image: url("../img/placeholder-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#site_main .text-img {
+    width: 33%;
+    background-color: var(--primary-trsp);
+    color: var(--light);
+    height: 20%;
+    font-size: 55%;
+    align-self: flex-end;
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+
+/* #endregion site_main */
